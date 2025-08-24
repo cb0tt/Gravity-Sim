@@ -34,7 +34,7 @@ $$
 r_{\text{new}} = r + v\,\Delta t + \tfrac{1}{2} a\,\Delta t^2
 $$
 
-👉 This is how we obtain **$r_{\text{new}}$**.
+ This is how we obtain **$r_{\text{new}}$**.
 
 ---
 
@@ -52,13 +52,13 @@ $$
 a(r) = - \mu \frac{r}{\|r\|^3}, \quad \mu = GM
 $$
 
-👉 After updating $r_{\text{new}}$, we recompute:
+ After updating $r_{\text{new}}$, we recompute:
 
 $$
 a_{\text{new}} = - \mu \frac{r_{\text{new}}}{\|r_{\text{new}}\|^3}
 $$
 
-👉 This gives **$a_{\text{new}}$**.
+ This gives **$a_{\text{new}}$**.
 
 ---
 
@@ -82,7 +82,7 @@ $$
 v_{\text{new}} = v + \tfrac{1}{2} (a + a_{\text{new}})\, \Delta t
 $$
 
-👉 This gives **$v_{\text{new}}$**.
+ This gives **$v_{\text{new}}$**.
 
 ---
 
@@ -129,7 +129,7 @@ $$
 ---
 
 ## 🛠️ Code Structure
-### 🔹 `main.cpp`
+###  `main.cpp`
 
 **Role**:
 
@@ -161,7 +161,7 @@ double L    = r.x * v.y - r.y * v.x;   // angular momentum
 
 ---
 
-### 🔹 `math.h` and `math_cpp.cpp`
+###  `math.h` and `math_cpp.cpp`
 
 **Role**:
 
@@ -187,7 +187,7 @@ double norm(Vec2 a) {
 
 ---
 
-### 🔹 `physics.h` and `physics_cpp.cpp`
+###  `physics.h` and `physics_cpp.cpp`
 
 **Role**:
 

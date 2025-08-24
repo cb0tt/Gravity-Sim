@@ -1,4 +1,4 @@
-# Gravity Simulator (C++ + SFML) 🌌
+# Gravity Simulator (C++/SFML) 🌌
 
 A 2D orbit/gravity simulator written in C++ using SFML.  
 It models orbital motion using the **velocity–Verlet integrator**, which is derived from a Taylor expansion of position and the trapezoidal rule for velocity. This simulator lets you specify the **gravitational strength (μ)**, **initial position (r₀)**, and **initial velocity (v₀)**, and then visualizes the trajectory in real time with stars, glow, and a fading trail.
